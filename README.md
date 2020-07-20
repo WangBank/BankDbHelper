@@ -3,15 +3,19 @@
 
 轮子基于Net standard2.1 + NetFramework4.0，nuget还原即用
 
-BankSqlHelper bankSqlHelper = new BankSqlHelper(new DbInfo
-                {
-                    ServerName = "localhost",
-                    DataBaseName = "fjzy",
-                    DbType = DBTypeEnum.Oracle,
-                    Password = "0000",
-                    UserName = "sysdba",
-                    Port = "1521"
-                });
+BankSqlHelper bankSqlHelper = 
+    new BankSqlHelper
+    (
+        new DbInfo
+            {
+                ServerName = "localhost",
+                DataBaseName = "fjzy",
+                DbType = DBTypeEnum.Oracle,
+                Password = "0000",
+                UserName = "sysdba",
+                Port = "1521"
+            }
+    );
 
 目前支持sqlserver、Oracle、Mysql、Sqlite
 

@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net40</TargetFrameworks>
+    <Authors>wangbank</Authors>
+    <PackageId>BankDbHelper</PackageId>
+    <Company>AvoidForgetting</Company>
+    <Description>看过了许多风景，有时候sql一把梭你可能需要这样一个轮子。。。</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageReleaseNotes>1.0.0.1版本
+</PackageReleaseNotes>
+    <Version>1.0.0.1</Version>
     <!--<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>-->
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' =='netstandard2.1' ">
