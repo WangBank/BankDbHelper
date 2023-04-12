@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net40</TargetFrameworks>
@@ -43,7 +43,7 @@
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
     <PackageReference Include="MySql.Data" Version="6.9.12" />
-	  <PackageReference Include="Oracle.ManagedDataAccess" Version="19.8.0" />
+	  <PackageReference Include="Oracle.ManagedDataAccess" Version="21.9.0" />
     <!--<Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dll\Oracle.ManagedDataAccess.dll</HintPath>
